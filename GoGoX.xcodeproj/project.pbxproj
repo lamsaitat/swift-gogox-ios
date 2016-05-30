@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB283DF11CFBF723009E6EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB283DF01CFBF723009E6EE9 /* AppDelegate.swift */; };
+		CB283DF31CFBF723009E6EE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB283DF21CFBF723009E6EE9 /* ViewController.swift */; };
+		CB283DF61CFBF723009E6EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB283DF41CFBF723009E6EE9 /* Main.storyboard */; };
+		CB283DF81CFBF723009E6EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB283DF71CFBF723009E6EE9 /* Assets.xcassets */; };
+		CB283DFB1CFBF723009E6EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB283DF91CFBF723009E6EE9 /* LaunchScreen.storyboard */; };
+		CB283E061CFBF723009E6EE9 /* GoGoXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB283E051CFBF723009E6EE9 /* GoGoXTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB283E021CFBF723009E6EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB283DE51CFBF723009E6EE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB283DEC1CFBF723009E6EE9;
+			remoteInfo = GoGoX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB283DED1CFBF723009E6EE9 /* GoGoX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoGoX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB283DF01CFBF723009E6EE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB283DF21CFBF723009E6EE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB283DF51CFBF723009E6EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB283DF71CFBF723009E6EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB283DFA1CFBF723009E6EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB283DFC1CFBF723009E6EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB283E011CFBF723009E6EE9 /* GoGoXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoGoXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB283E051CFBF723009E6EE9 /* GoGoXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoGoXTests.swift; sourceTree = "<group>"; };
+		CB283E071CFBF723009E6EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB283DEA1CFBF723009E6EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB283DFE1CFBF723009E6EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB283DE41CFBF723009E6EE9 = {
+			isa = PBXGroup;
+			children = (
+				CB283DEF1CFBF723009E6EE9 /* GoGoX */,
+				CB283E041CFBF723009E6EE9 /* GoGoXTests */,
+				CB283DEE1CFBF723009E6EE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB283DEE1CFBF723009E6EE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB283DED1CFBF723009E6EE9 /* GoGoX.app */,
+				CB283E011CFBF723009E6EE9 /* GoGoXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB283DEF1CFBF723009E6EE9 /* GoGoX */ = {
+			isa = PBXGroup;
+			children = (
+				CB283DF01CFBF723009E6EE9 /* AppDelegate.swift */,
+				CB283DF21CFBF723009E6EE9 /* ViewController.swift */,
+				CB283DF41CFBF723009E6EE9 /* Main.storyboard */,
+				CB283DF71CFBF723009E6EE9 /* Assets.xcassets */,
+				CB283DF91CFBF723009E6EE9 /* LaunchScreen.storyboard */,
+				CB283DFC1CFBF723009E6EE9 /* Info.plist */,
+			);
+			path = GoGoX;
+			sourceTree = "<group>";
+		};
+		CB283E041CFBF723009E6EE9 /* GoGoXTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB283E051CFBF723009E6EE9 /* GoGoXTests.swift */,
+				CB283E071CFBF723009E6EE9 /* Info.plist */,
+			);
+			path = GoGoXTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB283DEC1CFBF723009E6EE9 /* GoGoX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB283E0A1CFBF723009E6EE9 /* Build configuration list for PBXNativeTarget "GoGoX" */;
+			buildPhases = (
+				CB283DE91CFBF723009E6EE9 /* Sources */,
+				CB283DEA1CFBF723009E6EE9 /* Frameworks */,
+				CB283DEB1CFBF723009E6EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoGoX;
+			productName = GoGoX;
+			productReference = CB283DED1CFBF723009E6EE9 /* GoGoX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB283E001CFBF723009E6EE9 /* GoGoXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB283E0D1CFBF723009E6EE9 /* Build configuration list for PBXNativeTarget "GoGoXTests" */;
+			buildPhases = (
+				CB283DFD1CFBF723009E6EE9 /* Sources */,
+				CB283DFE1CFBF723009E6EE9 /* Frameworks */,
+				CB283DFF1CFBF723009E6EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB283E031CFBF723009E6EE9 /* PBXTargetDependency */,
+			);
+			name = GoGoXTests;
+			productName = GoGoXTests;
+			productReference = CB283E011CFBF723009E6EE9 /* GoGoXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB283DE51CFBF723009E6EE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HenshinSoft;
+				TargetAttributes = {
+					CB283DEC1CFBF723009E6EE9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5U8WFJ5LAS;
+					};
+					CB283E001CFBF723009E6EE9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CB283DEC1CFBF723009E6EE9;
+					};
+				};
+			};
+			buildConfigurationList = CB283DE81CFBF723009E6EE9 /* Build configuration list for PBXProject "GoGoX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB283DE41CFBF723009E6EE9;
+			productRefGroup = CB283DEE1CFBF723009E6EE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB283DEC1CFBF723009E6EE9 /* GoGoX */,
+				CB283E001CFBF723009E6EE9 /* GoGoXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB283DEB1CFBF723009E6EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB283DFB1CFBF723009E6EE9 /* LaunchScreen.storyboard in Resources */,
+				CB283DF81CFBF723009E6EE9 /* Assets.xcassets in Resources */,
+				CB283DF61CFBF723009E6EE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB283DFF1CFBF723009E6EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB283DE91CFBF723009E6EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB283DF31CFBF723009E6EE9 /* ViewController.swift in Sources */,
+				CB283DF11CFBF723009E6EE9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB283DFD1CFBF723009E6EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB283E061CFBF723009E6EE9 /* GoGoXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB283E031CFBF723009E6EE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB283DEC1CFBF723009E6EE9 /* GoGoX */;
+			targetProxy = CB283E021CFBF723009E6EE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB283DF41CFBF723009E6EE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB283DF51CFBF723009E6EE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB283DF91CFBF723009E6EE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB283DFA1CFBF723009E6EE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB283E081CFBF723009E6EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB283E091CFBF723009E6EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB283E0B1CFBF723009E6EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = GoGoX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henshinsoft.GoGoX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		CB283E0C1CFBF723009E6EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = GoGoX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henshinsoft.GoGoX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		CB283E0E1CFBF723009E6EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoGoXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henshinsoft.GoGoXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoGoX.app/GoGoX";
+			};
+			name = Debug;
+		};
+		CB283E0F1CFBF723009E6EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoGoXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henshinsoft.GoGoXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoGoX.app/GoGoX";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB283DE81CFBF723009E6EE9 /* Build configuration list for PBXProject "GoGoX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB283E081CFBF723009E6EE9 /* Debug */,
+				CB283E091CFBF723009E6EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB283E0A1CFBF723009E6EE9 /* Build configuration list for PBXNativeTarget "GoGoX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB283E0B1CFBF723009E6EE9 /* Debug */,
+				CB283E0C1CFBF723009E6EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB283E0D1CFBF723009E6EE9 /* Build configuration list for PBXNativeTarget "GoGoXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB283E0E1CFBF723009E6EE9 /* Debug */,
+				CB283E0F1CFBF723009E6EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB283DE51CFBF723009E6EE9 /* Project object */;
+}
